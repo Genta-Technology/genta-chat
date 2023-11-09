@@ -14,14 +14,13 @@ with st.sidebar:
         st.image(logo, use_column_width="always")
 
     # Ask user to input their API Token
-    genta_api_key = st.text_input(
-        "Genta API key", key="chatbot_api_key", type="password"
-    )
+    genta_api_key = st.text_input("Genta API key",
+                                  key="chatbot_api_key",
+                                  type="password")
 
     # Ask user to select their model of choice
-    model_selected = st.selectbox(
-        "Choose your LLM you would like to try:", ("Merak", "Starstreak", "DukunLM")
-    )
+    model_selected = st.selectbox("Choose your LLM you would like to try:",
+                                  ("Merak", "Starstreak", "DukunLM"))
 
     # Add Clear Chat button
     if st.button("Clear chat"):
@@ -48,12 +47,12 @@ st.caption("A simple demonstration of GentaAPI for chat purposes")
 
 # Initialize a new message if there isnt a message in session state
 if "messages" not in st.session_state:
-    st.session_state["messages"] = [
-        {
-            "role": "assistant",
-            "content": "Halo, saya adalah asisten anda, ada yang bisa saya bantu?",
-        }
-    ]
+    st.session_state["messages"] = [{
+        "role":
+        "assistant",
+        "content":
+        "Halo, saya adalah asisten anda, ada yang bisa saya bantu?",
+    }]
 
 for msg in st.session_state.messages:
     st.chat_message(msg["role"]).write(msg["content"])
@@ -90,5 +89,8 @@ if prompt := st.chat_input():
     response = response[0][0]["generated_text"]
 
     # Display the response
-    st.session_state.messages.append({"role": "assistant", "content": response})
+    st.session_state.messages.append({
+        "role": "assistant",
+        "content": response
+    })
     st.chat_message("assistant").write(response)
