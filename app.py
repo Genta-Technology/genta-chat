@@ -5,7 +5,7 @@ from genta import GentaAPI
 import streamlit as st
 from PIL import Image
 
-logo = Image.open("assets\genta_logo.png")
+logo = Image.open("genta_logo.png")
 
 with st.sidebar:
     # Genta Logo in sidebar

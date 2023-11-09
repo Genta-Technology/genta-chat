@@ -1,3 +1,4 @@
+# GentaChat
 <a name="readme-top"></a>
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -10,7 +11,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Genta-Technology/GentaChat">
-    <img src="assets/genta_logo.png" alt="Logo" width="80" height="80">
+    <img src="genta_logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">GentaChat</h3>
@@ -107,7 +108,7 @@ Distributed under the GPL-2.0 License. See `LICENSE.txt` for more information.
 [license-shield]: https://img.shields.io/github/license/Genta-Technology/GentaChat.svg?style=for-the-badge
 [license-url]: https://github.com/Genta-Technology/GentaChat/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[product-screenshot]: assets/main.jpg
+[product-screenshot]: main.jpg
 [Streamlit]: https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white
 [Streamlit-url]: https://streamlit.io/
 [Genta-url]: https://www.genta.tech
