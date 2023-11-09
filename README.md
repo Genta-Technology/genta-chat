@@ -31,7 +31,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-GentaChat is an simple and easy to use chatbot built specifically as a demonstrator for Genta Technology LLM API. Please check out our [website][Genta-url] for further information on our product and API system. This chatbot is design to be as simple as possible and for further tutorial please refer to our [youtube tutorial (on progress)](Genta-youtube).
+GentaChat is an simple and easy to use chatbot built specifically as a demonstrator for Genta Technology LLM API. Please check out our [website][Genta-url] for further information on our product and API system. This chatbot is design to be as simple as possible and for further tutorial please refer to our [youtube tutorial][Genta-youtube].
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
