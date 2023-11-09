@@ -31,7 +31,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-GentaChat is an simple and easy to use chatbot built specifically as a demonstrator for Genta Technology LLM API. Please check out our [website](genta.tech) for further information on our product and API system. This chatbot is design to be as simple as possible and for further tutorial please refer to our [youtube tutorial (on progress)](www.youtube.com).
+GentaChat is an simple and easy to use chatbot built specifically as a demonstrator for Genta Technology LLM API. Please check out our [website][Genta-url] for further information on our product and API system. This chatbot is design to be as simple as possible and for further tutorial please refer to our [youtube tutorial (on progress)](Genta-youtube).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,3 +110,5 @@ Distributed under the GPL-2.0 License. See `LICENSE.txt` for more information.
 [product-screenshot]: assets/main.jpg
 [Streamlit]: https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white
 [Streamlit-url]: https://streamlit.io/
+[Genta-url]: https://www.genta.tech
+[Genta-youtube]: https://www.youtube.com
