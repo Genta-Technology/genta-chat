@@ -1,8 +1,8 @@
 """
 FILE is for UI
 """
-from genta import GentaAPI
 import streamlit as st
+from genta import GentaAPI
 from PIL import Image
 
 logo = Image.open("assets\genta_logo.png")
