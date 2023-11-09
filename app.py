@@ -7,6 +7,11 @@ from PIL import Image
 
 logo = Image.open("genta_logo.png")
 
+PAGE_CONFIG = {"page_title": "GentaChat", "page_icon": "genta_logo.png"}
+
+st.set_page_config(**PAGE_CONFIG)
+
+
 with st.sidebar:
     # Genta Logo in sidebar
     col1, col2, col3 = st.columns(3)
