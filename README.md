@@ -36,6 +36,7 @@ GentaChat is an simple and easy to use chatbot built specifically as a demonstra
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
+
 [![Streamlit][Streamlit]][Streamlit-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -76,7 +77,6 @@ For the advanced version, you could tweak the temperature, maximum lenght, top p
 
 <!-- ROADMAP -->
 
-
 <!-- LICENSE -->
 
 ## License
@@ -88,6 +88,7 @@ Distributed under the GPL-2.0 License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 
 ## Contact
+
 - Contact Support: [support@genta.tech](mailto:support@genta.tech)
 
 - Instagram: [genta_tech](https://www.instagram.com/genta_tech/)
