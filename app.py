@@ -90,8 +90,8 @@ if prompt := st.chat_input():
         model=model_name,
         messages=st.session_state.messages,
         extra_body={"min_length": 8},
-        temperature=0.8,
-        max_tokens=1024
+        temperature=temperature,
+        max_tokens=max_length
     )
 
     response = response.choices[0].message.content
