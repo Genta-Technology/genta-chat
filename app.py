@@ -101,5 +101,8 @@ if prompt := st.chat_input():
     # Add assistant response to the chat history
     st.session_state.messages.append({"role": "assistant", "content": response})
 
-
+# Reset button to clear chat
+if st.button("Clear chat"):
+    # Only use the first system
+    st.session_state.messages = [st.session_state.messages[0]]
     
