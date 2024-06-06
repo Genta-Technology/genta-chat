@@ -22,7 +22,7 @@ openai.base_url = os.getenv("GENTA_API_URL")
 
 # Page layout
 st.title("Genta Technology Product Demonstration")
-st.caption("Powered by Llama 3 from Genta Technology")
+st.caption("Powered by Llama 3 from Genta Technology @Single RTX4090")
 
 # Store LLM generated responses & system message
 if "system_message" not in st.session_state:  
