@@ -57,6 +57,13 @@ temperature, max_length = 0.7, 4096
 # Add a toggle switch to switch between models
 model_name = st.sidebar.radio("Select Model", ("Meta-Llama-3-8B-Instruct", "Hermes-2-Pro-Llama-3-8B"))
 
+# Add hide system message option
+hide_system = st.sidebar.toggle("Hide System")
+if hide_system:
+    start_message_show = 1
+else:
+    start_message_show = 0
+
 # Add advanced option
 advanced = st.sidebar.toggle('Advanced mode')
 if advanced:
@@ -77,7 +84,7 @@ if system_message != st.session_state.system_message:
     st.session_state.messages[0] = {"role": "system", "content": system_message} 
 
 # Display chat history
-for msg in st.session_state.messages:
+for msg in st.session_state.messages[start_message_show:]:
     st.chat_message(msg["role"]).write(msg["content"])
 
 # Handle user input and get response from LLM
